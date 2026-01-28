@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <div className='w-full h-24 bg-white/10 shadow-[inset_0_1px_3px_0_rgba(255,255,255,0.95),inset_0_-1px_3px_0_rgba(255,255,255,0.7),inset_0_0_20px_0_rgba(255,255,255,0.35),inset_0_0_40px_0_rgba(255,255,255,0.15)]
-    backdrop-blur-2xl border-sm border-white/30 flex items-center justify-between px-8 md:px-20 shadow-lg hover:scale-[1.02] transition-transform duration-300'>
+    backdrop-blur-2xl border-lg border-white/30 flex items-center justify-between px-8 md:px-20 shadow-lg hover:scale-[1.02] transition-transform duration-300'>
 
       <Link href="/" className='text-[#3b2f2f] font-extrabold text-md md:text-2xl hover:text-[#5c4033] transition'>
         <span className="md:hidden flex flex-col leading-tight">
